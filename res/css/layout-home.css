@@ -1,0 +1,150 @@
+h3, h1, h2, h4, h5
+{
+    text-align: left;
+    font-family: 'Terminal Dosis', sans-serif;
+
+}
+body{
+    border-top: 0.3em solid black;
+    font-family: Helvetica,"Helvetica Neue",Arial,sans-serif;
+    color: black;
+    font-size: 11px
+}
+.header
+{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.numberCircle {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 11px Arial, sans-serif
+}
+
+.links
+{
+    padding:5px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+li{
+    padding-left:10px;
+}
+.title-header
+{
+    font-family: 'Terminal Dosis', sans-serif;
+    font-size: 30px;
+    padding-bottom:5px;
+}
+.title
+{
+    font-family: 'Terminal Dosis', sans-serif;
+    font-size: 12px;
+}
+
+a.navigation-header
+{
+    color: white;
+    text-decoration: none
+}
+
+a.navigation-header:hover
+{
+    color: white;
+    text-decoration: none;
+} 
+
+a.navigation-bar
+{
+
+    text-decoration: none
+}
+
+a.navigation-bar:hover
+{
+    color: #f90;
+    text-decoration: none;
+} 
+a.stash-list
+{
+    color: white;
+    text-decoration: none
+}
+
+a.stash-list:hover
+{
+    color: #f90;
+    text-decoration: none;
+} 
+
+a.people-stash-list
+{
+    background-color: black;
+    color:white;
+    padding:2%; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.people-stash-list:hover
+{
+    background-color: #5c94c8;
+    color:white;
+    padding:2%; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.people-link-list
+{
+    background-color: black;
+    color:white;
+    padding:1%; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.people-link-list:hover
+{
+    background-color: #5c94c8;
+    color:white;
+    padding:1%; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.welcome-link
+{
+    background-color: black;
+    color:white;
+    padding:5px; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.welcome-link:hover
+{
+    background-color: #5c94c8;
+    color:white;
+    padding:5px; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+hr
+{
+    margin:0 0 5px 0;
+}

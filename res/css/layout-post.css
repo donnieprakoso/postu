@@ -1,0 +1,49 @@
+body{
+    font-size:10px;
+
+}
+.header
+{
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.content-container
+{
+    padding: 10px;
+}
+.title-2
+{
+    font-family: 'Terminal Dosis', sans-serif;
+}
+.title
+{
+    font-family: 'Terminal Dosis', sans-serif;
+    font-size: 36px;
+}
+
+.label
+{
+
+    background-color: #f5f5f5;
+    color: #de6062;
+    padding: 2px;
+
+}
+.profile
+{
+    float:left;
+    margin:0 5px 0 0;
+}
+.clear
+{
+    clear: both;
+}
+
+
+.box
+{
+    border:1px solid black;
+    padding:5px;
+    margin-top: 10px;
+}

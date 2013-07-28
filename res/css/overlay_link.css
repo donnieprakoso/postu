@@ -1,0 +1,73 @@
+/* Just some base styles not needed for example to function */
+
+img { border: none; }
+p
+{
+    font-size: 1em;
+    margin: 0 0 1em 0;
+}
+.clear
+{
+    height: 0 !important;
+    line-height: 0 !important;
+    clear: both !important;
+    font-size: 1px !important;
+    margin: 0;
+    padding: 0;
+    float: none !important;
+}
+
+/* Advanced CSS hover styles */
+a.feature01 
+{
+    display: block;
+    border: 1px solid #dfd0cb;
+    border-width: 0 1px 1px 0;
+    margin: 20px 20px 1em 20px;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+a.feature01:hover { border-color: #000; }
+a.feature01:hover .overlay01
+{
+    position: absolute;
+    z-index: 3;
+    width: 194px;
+    height: 200px;
+    border: 3px solid #fff;
+}
+a.feature02:hover .overlay01 { border-color: #ccc; }
+a.feature03:hover .overlay01 { border-color: #1E528C; }
+a.feature04  .overlay01, a.feature04:hover .overlay01 { width: 94px; height: 96px; }
+a.feature05 .overlay01, a.feature05:hover .overlay01 { width: 44px; height: 46px; }
+
+a.feature01 .overlay01 .caption01
+{
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    z-index: 3;
+    text-indent: -9999em;
+    color: #000;
+    font-size: 11px;
+    bottom: 0;
+    overlay: hidden;
+}	
+a.feature04 .overlay01 .caption01, a.feature05 .overlay01 .caption01  { height: 20px; line-height: 20px; text-align: center; }
+a.feature04 .overlay01 .caption01:after { content: ' more!'; }
+a.feature05 .overlay01 .caption01 { height: 15px; line-height: 15px; font-size: 8px; }
+
+a.feature01:hover .caption01
+{
+    text-indent: 10px;
+    background: rgb(255,255,255);
+    background: rgba(255, 255, 255, 0.75); /* for browsers that know rgba */
+}
+a.feature02:hover .caption01 { top: 0; background: rgb(204,204,204); background: rgba(204, 204, 204, 0.75); }
+a.feature03:hover .caption01 { top: 50%; background: rgb(30,82,140); background: rgba(30, 82, 140, 0.75); }
+a.feature04:hover .caption01, a.feature05:hover .caption01 { text-indent: 0; }
+
+a.feature01 img { display: block; }
+
